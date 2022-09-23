@@ -1,0 +1,8 @@
+package com.p1;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Jconfiguration {
+
+}

@@ -1,0 +1,5 @@
+Swagger: It is a documentation tool, using swagger api we can work like a POSTMAN, we wil 
+         able to call all the endpoints 
+
+API Gateway: zuul or eureka work as api gateway 
+           

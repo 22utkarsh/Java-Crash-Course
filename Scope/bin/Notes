@@ -1,0 +1,36 @@
+Scope of variable:
+- Scope mean where the variable is available or dead(scope ends)
+- this is different from encapsulation like private , public...
+
+
+Local scope :
+- a variable declared in the method or a block like for, try local variable will not be initialised
+  we have to initialize before we use other wise it is compile time error
+             
+ e.g for(int i=0; i<10; i++){try{int k; sop(k);}catch(Exception e){}}   // error as k is not initialise
+ 
+ 
+ 
+ Instance Scope :
+ - the variable inside the class and outside the method is instance scope
+ - they are auto initialize by default values
+ - they exist when a object is created and ends when the object goes for Garbage Colle.
+ - if more instance is created then all the instance will have separate copy of the instance vriale
+   if the object is not created we cannot use .
+   e.g class Add{int a,b,c}
+   
+   
+   
+  
+ Class Scope:
+ - the variable inside the class and outside the method is with static is class scope 
+ - it can be access or available before or after object creation
+ - there will be only one copy of class variable.
+  e.g: class Add{int a,b; static int c};
+  
+  
+ What is a Dispose Technique?
+ closing the resources before the object going to the garbage colle.
+ 
+ 
+ 

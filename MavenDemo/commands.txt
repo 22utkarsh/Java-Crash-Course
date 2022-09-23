@@ -1,0 +1,5 @@
+mvn compile   --- outside src
+
+mvn package   --- make it project in jar files
+
+java -cp MavenDemo-0.0.1-SNAPSHOT.jar com/mavendemo/App   --- in target file to run that jar file

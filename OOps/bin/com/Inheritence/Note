@@ -1,0 +1,27 @@
+
+
+
+II)
+1.what are the rules for the inheritance:
+
+
+2. why java not support Inheritance? : 
+
+  -> there is no scope resolution operator(::) in java as in c++ and because of ambiguity which methode to call if two  super class.
+  
+   
+   WAP to add, substract, multi , and divive for two number;
+   
+ ----------------------------------------------------------------------------------------------------  
+   
+  III)
+  1. what is tightly coupled technique and loosely couped thechnique?
+  --> int a=10;
+  	  Add add = new Add(10,20);  same reference same object is tightly coupled technique
+  	  
+  	  Parent parRef = new ChildeObj()  // parent refrence child Object is loosely coupled
+  	  *** we have to use loosely coupled technique always*** 
+  	  this is called Licusive Principle
+  	  
+  2. WAP to Add,Subtract,Multiply,divide based on the choice, 
+    (you should not use any controlled statements like if,switch case....)

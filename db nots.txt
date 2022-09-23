@@ -1,0 +1,80 @@
+1) Backend : it is program working in memory where user annot directly interact dbms is    
+backend engin
+
+2) Frontend : is a program which interacts with user and backend .
+
+
+DBMS (there is no connectivity or relation between table) and rdbms (the table are connected each other using value that is primary key and foreign key)
+
+Management system refers for : the software which manage the data
+
+Data base: it is a grp of related data file or tables or relation or entity set
+
+- a table is made up of no. of rows or tuples or record or entity (ORM object relation mapping)
+- each row is made up of no. of columns or feilds
+- column has got attributes and domain
+- attribute: name given to column
+- domain: type of character set store in attribute
+
+Normalization: removing the redundancy and making the column as single value (mv) we will go for 
+    decomposing we will split one table in to multiple and on column into many column
+    
+   
+   
+Functional Dependancy: 
+
+Integrity ConstrainsL it is rules applied to get correct or valid data
+types---
+  1) Entity integrity : rows are not duplicate using primary key
+  2) referential integrity : foreign key
+  3) domain integrity business rules given by the client check
+
+-------------------------------------------------------------------------------
+
+SQL: structure query language made up of 
+
+ddl -> data defination language (create ,alter,drop, truncate,rename)
+      - when we use ddl we should use the data object name.
+      e.g create table....
+          create view
+
+DML -> data manipulation language (insert ,update, delete)
+      - the dml command will lock the record the row u insert or update or deleted will get       locked this locked data will not
+
+TCL -> Transaction control language (commit,savepoint,rollback)
+      - It is use thos to release the lock.
+      - In some of the dbms you need say begin transaction
+      
+DCL -> Data COntrol language (Grant , revoke)
+    
+DQL -> Data query Language (select)
+     - it will retrive the data
+     - query optimization is important here. so that it can execute in lesser time
+     - selection: selecting specific row to display
+     - projection : selecting specific column to display is called projection
+     
+
+     
+------------------------------------------------------------------------------------
+join:
+
+select a.studentid,a.fName,b.m1,b.m2
+from student.student a inner join student.marks b
+on a.studentid = b.studentid;
+
+
+select a.studentid,a.fName,b.m1,b.m2
+from student.student a left outer join student.marks b
+on a.studentid = b.studentid;
+
+question
+- write a query who has enrolled and taken a test. (inner join)
+- write a query who has enrolled and not taken a test (left outer join)
+- write a query who has taken the test but not enrolled.(right outer join)
+- write a query to display studentid , fname , city, totalmarks
+
+
+select a.studentid,a.fName, (b.m1+b.m2) as total,c.cityName
+from student.student a inner join student.marks b on a.studentid = b.studentid 
+inner join connect d on a.studentid = d.studentid 
+inner join city c on d.cityid = c.cityid;

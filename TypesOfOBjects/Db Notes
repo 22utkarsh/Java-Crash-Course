@@ -1,0 +1,24 @@
+DBMS (there is no connectivity or relation between table) and rdbms (the table are connected each other using value that is primary key and foreign key)
+
+Management system refers for : the software which manage the data
+
+Data base: it is a grp of related data file or tables or relation or entity set
+
+- a table is made up of no. of rows or tuples or record or entity (ORM object relation mapping)
+- each row is made up of no. of columns or feilds
+- column has got attributes and domain
+- attribute: name given to column
+- domain: type of character set store in attribute
+
+Normalization: removing the redundancy and making the column as single value (mv) we will go for 
+    decomposing we will split one table in to multiple and on column into many column
+    
+   
+   
+Functional Dependancy: 
+
+Integrity ConstrainsL it is rules applied to get correct or valid data
+types---
+  1) Entity integrity : rows are not duplicate using primary key
+  2) referential integrity : foreign key
+  3) domain integrity business rules given by the client check

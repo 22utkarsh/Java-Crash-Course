@@ -1,0 +1,27 @@
+Thread : 
+-light weight process ; A thread is small part of the process 
+
+
+Why need of thread? : 
+- To do concurrent programming that means multiple jobs will be running parallely.
+- to process huge data part by part
+- to design games 
+- to response to multiple request
+
+
+How the thread is created in java:
+- when a class extends a THread class it become a thread
+  and we require to override the run method
+  
+- the thread will start when the run method begin
+- the thread will end when the run method end
+- we should not call the run method direclty ; 
+   we should call it using start method.
+
+- when the run method calls any other method it should synchronized or thread safe.
+
+Assignment:
+design a game to print tic tok for two players 
+one player print tic and other print toc
+
+Rummy Game  for three players.

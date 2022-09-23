@@ -1,0 +1,17 @@
+package com.String;
+
+public class AssignmentString {
+	static String reverse(String s1) {
+		char ch[] = s1.toCharArray();
+		for(int i=0;i<ch.length/2;i++) {
+			char temp = ch[i];
+			ch[i]=ch[ch.length-1-i];
+			ch[ch.length-1-i]=temp;
+		}
+		return ch.toString();
+	}
+	public static void main(String[] args) {
+		String s1 = "Hello World";
+		System.out.println(reverse(s1));
+	}
+}

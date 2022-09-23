@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   <bean id="h1" class="com.springDemo.Holiday"></bean>
+   
+   <bean id="h2" class="com.springDemo.Holiday">
+   		<property name="holidayName" value="Independance Day"></property>
+   		<property name="date" value="15th August"></property>
+   </bean>
+   <bean id="h3" class="com.springDemo.Holiday">
+   	<constructor-arg name="holidayName" value="Republic Day"></constructor-arg>
+   	<constructor-arg name="date" value="26th January"></constructor-arg>
+   </bean>
+
+</beans>

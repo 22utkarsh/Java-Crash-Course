@@ -1,0 +1,33 @@
+Hyper Text Markup language
+1) State less protocol : it never work or store on data it perform only i/o
+
+
+NodeJS
+1) node -v  : to check version if it installed
+2) NodeJs contains NPM(Node programe Manager) which is responsible for installing and uninstalling the packages
+3) Normally the JS run on the browser. If we want to work the JS without the browser we should use the NodeJS.
+4) When we use NodeJs to execute JavaScript which will be working without hte browser , so we should not have any I/O operation of the browser.
+5) ES5 and ES6 versions of the js 
+6) ES6 has something called as Scope , Lambda expressions , different types of oprators and OOPs .
+7) Normally the browser will understand the ES5 , so when we write the syntax of ES6 we need a NodeJS to compile or Babble Compiler.
+8) to create the structure of the HTML we have to use => npm init  : this will create the package of Json files
+9) when we create variable using "let" then it has "local scope"  and variable with "var" has "Global Scope" .
+
+10) Lambda Expression : Creating the function with minimum defination is called lambda expression
+
+11) The JavaScript is DTD (Dynamic type defination)
+12) since it is DTD inside the programm if the type get change , still the javascript will work with wrong output. to overcome this problem
+    we have to use the TypeScript
+
+
+13) TypeScript : It is the same Js but with the type defination and it dosen't allow the dynamic data typing. So the programmer can be confident
+                 about the datatype ,However The browser will not understand the TS , It need to converted back to the JS. So while developing 
+   		we use TS and during execution we convert it into JS , so there is no type Mismatched  
+     - to convert Ts to JS it required TSC (TypeScript Compiler)
+     - we should use TS to have a service layer( only computation not fot the UI)
+
+
+Assignment:
+ i) Create HTML page to add two numbers
+ii) create html page to display mathematical table
+iii) Create html page to accept name , age , city ; create 2 buttons one for adding the data to the array and other to display the data from array.

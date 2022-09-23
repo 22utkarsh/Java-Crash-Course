@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;nots&apos; to &apos;Multithreading/src&apos;&#x0D;&#x0A;- Original project: &apos;Exception_Handling&apos;&#x0D;&#x0A;- Destination element: &apos;Multithreading/src&apos;&#x0D;&#x0A;- Original element: &apos;nots&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Multithreading/src" element1="nots" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1660903838337" units="0" version="1.0"/>
+</session>

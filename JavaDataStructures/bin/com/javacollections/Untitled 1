@@ -1,0 +1,48 @@
+Collections :
+- the collection is where the data is stored before or after processing.
+- same thing is done by using array but array is static and number of elements are defined 
+  we cannot change the number.
+- where collection are dynamic we will not define the elements and we can increase
+  or delete the element in run
+  
+ 
+In java the collection is a Framework , frameworks means it contains all the api(application programming interface)
+
+Collection Framework contains Interface, class and algorithm
+
+1. Collection (it is an interface)(only value):
+   1.1 List : it is ordered , can accept duplicate , can be access by index
+            class: ArrayList , Vector , LinkedList
+            
+   1.2 Set : unordered , cannot store duplicates , cannot accept by index
+   			class : HashSet(unordered), HashTree(Sorted), LinkedHashset(ordered)
+   			
+   1.3 Queue : FIFO ordered 
+   			  class: PriorityArray or LinkedList
+   
+   1.4 Dequeue : double ended queue , can access both FIFO and LIFO.
+   				class:  ArrayDeque or linkedList
+
+2. 	Map (key and value)
+
+
+*) Generic Template :a class created without datatype , but object is created with data type
+                     i.e, the same class can be used for the multiple data type
+   - Generic Template mainly used for the storage like collections , and should not use for computations
+   - in java Generic template supports only wrapper classes and class not for the primitive datatypes.
+   e.g int is primitive and Integer is a wrapper class
+   
+   
+   
+*) Iterator: 
+ - iterator take a copy of the data and display one by one
+ - iterator is a forward direction (cannot travel to previous data), back tracing is not possible
+ - when iterator is executing we cannot update that collection
+         
+    
+ Assignments:     
+  1. take array and remove all the duplicate elements of the array   
+    
+  2. Accept the sentence and show how many times the each word is repeating
+  3. Accept student details (fname ,age,marks) and display the student in alphabetical order
+   

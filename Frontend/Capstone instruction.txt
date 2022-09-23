@@ -1,0 +1,22 @@
+Project Name and trainee name should be submitted on slack
+Project Architecture:
+1) user will call/interact with frontend --> frontend will interact with backend(microservices) --> backend will interact with the database
+2) frontend should give a landing page when user open the site , the landing page will have
+   i)   login page 
+   ii)  forget password
+   iii) registration
+  (the schema should be design by trainee)
+
+3) on login should give home page , in home page user name should be displayed , should have minimum search tab , main fuctionality and then    logout
+4) use images if necessary .
+5) you should have SEO (search engine optimisation) and higher accissibility(different category of the people can be access e.g: person without mouse , person who cannot see properly)
+
+Backend:
+1) we should have api gateway and different microservices
+2) all the microservices should be routed through the api gateway
+3) jwt token should be their
+4) user microservice for login , registration , forget password
+5) other microservice according the functionality of the project
+
+Note : Unit testing at frontend and backend should be their (atleast minimum)
+   

@@ -1,0 +1,31 @@
+Types of Object--------
+
+1. DTO (data transfer object) / POJO / JavaBean : 
+- this object will carry the data from one point to another point and it olds all the data,
+- it does not have any logics,this is also called as POJO(plain old java obj)
+- DTO contains data members which are private encapsulated , this can be accessed using read write or both
+ read write permission using get() method, set() method.
+
+2. BO (Business Object) / EJB (Enterprises JavaBean) :
+- this will not have data with it , but it contains only the business logics
+- it takes DTO and executes the logic on that.
+
+
+3. DAO (data acess object) :
+- It reads or writes the data into the database using DTO.
+
+
+Assignment:
+1. Create Employee object (empId,empName,salary) and calculate the income tax using BO. income tax is upto 2.5Lakh  no tax; 2.50 lakhs to 5 lakch 5%
+   10 to 15 15% tax ; 15 to 20 20% ; above 20 30%
+   
+2. Write a program to display the date of Ramzan and Diwali for next 10 years.
+
+3. Create DTO class using Lombok  
+
+4.accept ammount and number of months for fixed depositi , display maturity
+amount and maturity date interest is 6.5% pro rate basis
+
+
+
+

@@ -1,0 +1,92 @@
+Angular
+ 
+- Angular is a framework which works using html css and ts.
+- Angular is a framework which got lot of components , it works in the format of components.
+
+- What is Component? : a small piece or small part of the application is called component.
+  e.g : In a Home page we have navbar as a component , aside bar as a component , main display as another component
+    - in application we develope small small components and integrate at one part to make it as a application
+    - every component is recognise by something called as selectors. and this selector name is use in the integration or 
+       while calling the component.
+
+
+
+- Angular has 2 main things component and services.
+- component has css,html,ts(logics and variables) and service has got only certain logic without html and css.
+
+- Why we want Service ? :
+    - certain logics need in a multiple component so instead of typing the logic in every component and making the duplicate
+      code so we can make use of service so we can define the logic in service use same service in different component.
+
+- How component uses the service?
+    1) by creating the objet of the service class , which is a bad way of coding because in the multiple component multiple
+      object has to create for the same service
+    2) Dependancy Injection (DI) which creates the object and keeps in container and use that same object in every component.
+       so here only 1 object is created (singlton) .
+
+
+
+- Decorators :
+	- it is a annotation or preprocessors which gives some information to the compiler to what it has to do.
+	here in angular to indicate it is a decorator we use '@' symbol as same as java.
+
+- we use 'ng' to indicate it is angular.
+
+-Modules: it is a group of the component (like packages in java). so any module provided by the angular called 'ngModule'.
+      - ngModule which works only on the databinding
+
+- a component contains a class , html ,css. A class contains variables , methods.
+
+
+- Data Binding: 
+   - the variables declared inside the class can be used in html template using '{{...}}' , this is called as one way      binding.
+   - if I do the changes in the html , those values will be automatically update in class variables , this is called as two      way binding.
+   - one way binding will happen automatially, but to do two-way binding we need to use "ngModel"
+
+
+
+
+
+
+
+- To install angular : > npm install @angular/cli
+
+- to create new angular project : > ng new appname 
+
+- to execute a project : > ng serve
+
+- to genearte component: > ng g c compo_Name
+
+- to generate service: > ng g s service_name
+
+- a component is described under selectors , a service is described under provider.
+
+
+
+
+
+-ngDirectives : which are used in html templates
+   - to indicate it is a directive we should use '*'
+  e.g : *ngif , *ngfor   this should in the tag which repetative.
+   e.g <table> tag is not a repeatative ; <tr>is  a repeatative tags
+       <ol> is not repeatative , so <li> is repeatative tag
+
+
+
+
+
+
+
+
+what is CDN? : taking the library from internet using url
+
+What is CMS?
+
+
+
+
+Assignment :
+1) Accept the student details ( name , age , city) , add some logo(any img in round shape) at the top with name and do the form validation like no field should be blank and every field has minimum two characters , name should not have alphanumeric , display different error message for different errors below the text box , Use CSS for styling .
+
+
+

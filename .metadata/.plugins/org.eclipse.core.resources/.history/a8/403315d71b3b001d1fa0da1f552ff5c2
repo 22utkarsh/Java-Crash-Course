@@ -1,0 +1,10 @@
+package com.p1;
+
+public class Employee {
+	int empId;
+	String empName;
+	int salary;
+	Address address;
+	Department department;
+	
+}

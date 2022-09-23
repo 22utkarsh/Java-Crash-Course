@@ -1,0 +1,23 @@
+1. computers execute the instruction which are un-ambiguous.
+
+2. where exception can occurre only if there is a resource
+3. checked exception which will not compile when use resource and exception
+  not handled
+  
+ 4. unchecked Exception : even though there is a probability of existing
+    the ambiguity it will still compiled
+    
+    Rule:
+    
+    1) Exception should be handled specifically (by using multiple catch block)
+    2) Exception should be handled centrally (using throws)
+    
+    
+    Keywords: try , catch , throw , throws , finally.
+    
+    exceptions-----> 1)System define 2)User define
+    
+    
+    Assignment : 
+    1.Create a User define exception on age for admission module
+      wap to accept name , age & age >5 years and age < 7 years

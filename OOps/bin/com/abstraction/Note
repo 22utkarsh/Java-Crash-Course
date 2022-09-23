@@ -1,0 +1,13 @@
+1.) Lambda Expression is the simple way od implementing the Interface 
+    without creating the class and the structure
+    
+2) Lambda Expression is only work for a Interface which has only one abstract method.
+  .And cannot be implemented if it contains more than one abstract method.'
+  This concept is also called as Functional Programming
+  
+3) To Implement the good functional programming we should do Interface Segregation,
+  where we create more interfaces with single functionality.
+  
+  Assignment:  
+  WAP to Add,Subtract,Multiply,divide based on the choice, 
+  (you should not use any controlled statements like if,switch case....) using lamda expression

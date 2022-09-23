@@ -1,0 +1,41 @@
+- String in java is not a datatype and also not a wrapper class.
+- String is a normal class in java.
+- String is a Immutable (cannot do changes in object).
+- If we try to do the changes it will creates a new object , 
+  Hence if there is a lot of changes in string , we should not create a string object
+  we should have to create StringBuffer or StringBuillder which are the mutable.
+ 
+- StringBuffer or StringBuilder both are same there no much difference ; where
+  StringBuffer is synchronous and StringBuilder is asynchronous hence we should use 
+  StringBuffer in thread classes and StringBuilder in normal class.
+
+  
+Assignment:
+-  Accept the string and check is it palindrome ?
+
+-  Accept a sentence and display the biggest  word.
+
+- check is it email or not
+- check string should have 3 characters only
+
+
+Types of Object--------
+
+1. DTO (data transfer object) : 
+- this object will carry the data from one point to another point and it olds all the data,
+- it does not have any logics,this is also called as POJO(plain old java obj)
+- DTO contains data members which are private encapsulated , this can be accessed using read write or both
+ read write permission using get() method, set() method.
+
+2. BO (Business Object) :
+- this will not have data with it , but it contains only the business logics
+- it takes DTO and executes the logic on that.
+
+
+3. DAO (data acess object) :
+- It reads or writes the data into the database using DTO.
+
+
+
+
+

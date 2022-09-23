@@ -1,0 +1,17 @@
+package com.p1;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Jconfiguration {
+	@Bean
+	public Department deptBean() {
+		return new Department(1,"Administration","admin",20,4);
+	}
+	@Bean
+	public Address address() {
+		return new Address("pune","maharashtra","Shivaji",2,411005);
+	}
+
+}

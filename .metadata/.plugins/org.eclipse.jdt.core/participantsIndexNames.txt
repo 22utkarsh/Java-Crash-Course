@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\JavaCrashCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3211593806.index
+\Monolythic\src\main\java
